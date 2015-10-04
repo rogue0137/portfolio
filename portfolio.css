@@ -129,6 +129,7 @@ table /*overide defaults*/{
     background-color: #AD85FF;
 }
 
+/*FOOTER*/
 
 #footer
 {
@@ -194,6 +195,7 @@ ul {
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
+
 
 img {
     float: left;
