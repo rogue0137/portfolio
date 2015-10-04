@@ -17,13 +17,10 @@ body {
 
 .main h1 {
    text-align: center;
-}
-
-.words {
-	font-size: 50px;
-	font-family: 'IM Fell English', serif;
-	color: #c0392b;
-	text-shadow: 2px 2px #000000;
+   font-size: 50px;
+    font-family: 'IM Fell English', serif;
+    color: #c0392b;
+    text-shadow: 2px 2px #000000;
 }
 
 
