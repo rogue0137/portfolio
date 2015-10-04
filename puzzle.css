@@ -1,0 +1,205 @@
+.heading {
+  background-color: #f1c40f;
+  text-align: center;
+  box-shadow: 0px 5px 5px #333300;
+}
+
+.heading h1 {
+  color:#fff;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 70px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+h3 {
+  text-shadow: 1px 1px #3A4711;
+}
+
+.grid {
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.bottom-space {
+  margin-bottom: 10px;
+}
+
+.bottom-space2 {
+  margin-bottom: 20px;
+}
+
+
+/*draggables*/
+  #draggable { 
+    width: 100px; 
+    height: 100px; 
+    float: left; 
+    margin: 10px;  
+  }
+
+  #draggable2 { 
+    width: 100px; 
+    height: 100px; 
+    float: left; 
+    margin: 10px;  
+  }
+
+  #draggable3 { 
+    width: 100px; 
+    height: 100px;  
+    float: left; 
+    margin: 10px;
+  }
+
+  #draggable4 { 
+    width: 100px; 
+    height: 100px; 
+    float: left; 
+    margin: 10px; 
+  }
+
+  #draggable5 { width: 100px; 
+    height: 100px; 
+    float: left; 
+    margin: 10px; 
+  }
+
+  #draggable6 { 
+    width: 100px; 
+    height: 100px; 
+    float: left; 
+    margin: 10px;
+  }
+
+  #draggable7 { 
+    width: 100px; 
+    height: 100px; 
+    float: left; 
+    margin: 10px;
+  }
+
+  #draggable8 { 
+    width: 100px; 
+    height: 100px; 
+    float: left; 
+    margin: 10px; 
+  }
+
+  #draggable9 { 
+    width: 100px; 
+    height: 100px; 
+    float: left; 
+    margin: 10px;  
+  }
+  
+
+/*droppables*/
+  
+  #droppable { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left; 
+    margin-left: 10px;
+    border: solid 2px #000;
+    background: -webkit-linear-gradient(#FEEC6D, #B3701A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEEC6D, #B3701A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEEC6D, #B3701A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEEC6D, #B3701A); /* Standard syntax */
+  }
+
+  #droppable2 { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left;
+    border: solid 2px #000;
+    background: -webkit-linear-gradient(#FEEC6D, #B3701A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEEC6D, #B3701A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEEC6D, #B3701A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEEC6D, #B3701A); /* Standard syntax */
+  }
+
+  #droppable3 { width: 100px;
+    height: 100px;
+    padding: 0.5em; 
+    float: left;
+    border: solid 2px #000;
+    background: -webkit-linear-gradient(#FEEC6D, #B3701A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEEC6D, #B3701A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEEC6D, #B3701A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEEC6D, #B3701A); /* Standard syntax */ 
+  }
+
+  #droppable4 { width: 100px;
+     height: 100px; 
+     padding: 0.5em; 
+     float: left; 
+     margin-left: 10px;
+     border: solid 2px #000;
+     background: -webkit-linear-gradient(#FEEC6D, #B3701A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEEC6D, #B3701A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEEC6D, #B3701A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEEC6D, #B3701A); /* Standard syntax */
+   }
+
+  #droppable5 { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left;
+    border: solid 2px #000;
+    background: -webkit-linear-gradient(#FEEC6D, #B3701A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEEC6D, #B3701A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEEC6D, #B3701A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEEC6D, #B3701A); /* Standard syntax */ 
+  }
+
+  #droppable6 { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left;
+    border: solid 2px #000;
+    background: -webkit-linear-gradient(#FEEC6D, #B3701A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEEC6D, #B3701A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEEC6D, #B3701A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEEC6D, #B3701A); /* Standard syntax */ 
+  }
+
+  #droppable7 { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left; 
+    margin-left: 10px;
+    border: solid 2px #000;
+    background: -webkit-linear-gradient(#FEEC6D, #B3701A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEEC6D, #B3701A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEEC6D, #B3701A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEEC6D, #B3701A); /* Standard syntax */
+  }
+
+  #droppable8 { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left;
+    border: solid 2px #000;
+    background: -webkit-linear-gradient(#FEEC6D, #B3701A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEEC6D, #B3701A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEEC6D, #B3701A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEEC6D, #B3701A); /* Standard syntax */ 
+  }
+
+  #droppable9 { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left;
+    border: solid 2px #000;
+    background: -webkit-linear-gradient(#FEEC6D, #B3701A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEEC6D, #B3701A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEEC6D, #B3701A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEEC6D, #B3701A); /* Standard syntax */ 
+  }

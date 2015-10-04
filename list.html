@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>List</title>
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <!-- File Specific -->
+  <link rel="stylesheet" href="./list.css">
+
+  <!-- Fonts -->
+
+  </head>
+  <body>
+  
+  <!-- Header -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header">
+          <h1>To Do List</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="main">
+      <div class="list">
+        <p>
+          <input type="checkbox">
+          <i class="glyphicon glyphicon-star"></i>
+          <span>Brie</span>
+          <i class="glyphicon glyphicon-remove"></i>
+        </p>
+        <p>
+          <input type="checkbox">
+          <i class="glyphicon glyphicon-star"></i>
+          <span>Bread</span>
+          <i class="glyphicon glyphicon-remove"></i>
+        </p>
+        <p>
+          <input type="checkbox">
+          <i class="glyphicon glyphicon-star"></i>
+          <span>Sparkling Cider</span>
+          <i class="glyphicon glyphicon-remove"></i>
+        </p>
+        <p>
+          <input type="checkbox" checked>
+          <i class="glyphicon glyphicon-star"></i>
+          <span>Strawberries</span>
+          <i class="glyphicon glyphicon-remove"></i>
+        </p>
+        <p>
+          <input type="checkbox">
+          <i class="glyphicon glyphicon-star"></i>
+          <span>Chocolate Mousse</span>
+          <i class="glyphicon glyphicon-remove"></i>
+        </p>
+        <p>
+          <input type="checkbox">
+          <i class="glyphicon glyphicon-star active"></i>
+          <span>Figs</span>
+          <i class="glyphicon glyphicon-remove"></i>
+        </p>
+      </div>
+      
+      <form class="form">
+        <div class="form-container">
+          <input id="todo" type="text" class="form-input" placeholder="Add item">
+        </div>
+        <button type="submit" class="btn">+</button>
+      </form>
+    </div>
+    
+  <!-- Jquery Specific -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- File Specific -->
+  <script src="./list.js"></script>
+</body>
+</html>

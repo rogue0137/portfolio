@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Puzzle</title>
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <!-- File Specific  -->
+  <link rel="stylesheet" href="./puzzle.css">
+  <link href='https://fonts.googleapis.com/css?family=Cedarville+Cursive|La+Belle+Aurore|Alex+Brush' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<!-- navbar -->
+<div class = "heading container-fluid">
+  <h1> Klimt's Puzzle </h1>
+</div>
+
+<!-- puzzle space -->
+
+<div class= "container">
+  <div class="row">
+    <div class="bottom-space col-xs-12">
+      <h3> Puzzle pieces </h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class ="grid">
+      <img id="draggable" class="ui-widget-content" src="img/klimt1.jpg">
+      <img id="draggable8" class="ui-widget-content" src="img/klimt8.jpg">
+      <img id="draggable3" class="ui-widget-content" src="img/klimt3.jpg">
+      <img id="draggable6" class="ui-widget-content" src="img/klimt6.jpg">
+      <img id="draggable7" class="ui-widget-content" src="img/klimt7.jpg">
+      <img id="draggable2" class="ui-widget-content" src="img/klimt2.jpg">
+      <img id="draggable9" class="ui-widget-content" src="img/klimt9.jpg">
+      <img id="draggable4" class="ui-widget-content" src="img/klimt4.jpg">
+      <img id="draggable5" class="ui-widget-content" src="img/klimt5.jpg">
+  </div>
+
+  <!-- droppable -->
+  <div class="row">
+    <div class="bottom-space2 col-xs-12">
+      <h3> Place pieces in order below. </h3>
+    </div>
+  </div>
+  <div class="row"> 
+    <div class="grid">  
+      <div id="droppable">
+      </div>
+      <div id="droppable2">
+      </div>
+      <div id="droppable3">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="grid">
+      <div id="droppable4">  
+      </div>
+      <div id="droppable5"> 
+      </div>
+      <div id="droppable6">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="grid">
+      <div id="droppable7">  
+      </div>
+      <div id="droppable8">   
+      </div>
+      <div id="droppable9">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Jquery Specific -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- File Specific -->
+
+  <script src="./puzzle.js"></script>
+ 
+</body>
+</html>

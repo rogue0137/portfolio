@@ -1,0 +1,52 @@
+body { 
+  background: url(http://cdn1.vox-cdn.com/assets/4229567/game-of-thrones-poster_85627-1920x1200.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main {
+  text-align: center;
+  /*the below creatvertically centered object*/
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+
+.words {
+	font-size: 50px;
+	font-family: 'IM Fell English', serif;
+	color: #c0392b;
+	text-shadow: 2px 2px #000000;
+}
+
+
+ul.ui-autocomplete {
+  width: 100px;
+  list-style: none;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  background-color: #fff;
+}
+
+ul.ui-autocomplete li {
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'IM Fell English', serif;
+}
+
+ul.ui-autocomplete li:hover {
+  background-color: #ddd;
+}
+
+span.ui-helper-hidden-accessible {
+	 text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
