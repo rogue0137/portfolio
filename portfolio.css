@@ -129,6 +129,7 @@ table /*overide defaults*/{
     background-color: #AD85FF;
 }
 
+/*FOOTER*/
 
 #footer
 {
@@ -154,23 +155,15 @@ table /*overide defaults*/{
     background-repeat: repeat-x;
 }
 
-/* footer buttons */
-#links {
-    position: absolute;
-    left:1vw;
-    top:1vmin;
 
-}
-
+/*SCROLLING SECTION*/
 
 #scrolling{/*frame*/
     position:fixed;
     top:58%;
-
     background:#D699EB;/*FF473D*/
     height:38%;
     width:100vw;
-
     overflow: hidden;
 }
 
@@ -180,20 +173,52 @@ ul {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
     margin: 0;
     padding: 0;
     position: absolute;
-
     margin-top:4vh;
     height:80%;
-
     list-style-type: none;
-
     -webkit-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
+
+li {
+    font-size:8vmin;/*cool*/
+    float: left;
+    width:25vw;
+    min-width: 250px;
+    height: 100%;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -o-border-radius: 30px;
+    -moz-border-radius: 30px;
+    cursor: pointer;
+    background-color: #fff;
+    -webkit-transform:  scale(0.95);
+    -ms-transform:  scale(0.95);
+    -moz-transform:  scale(0.95);
+    transform: scale(0.95);
+}
+
+#scrolling a {
+    color: #7A00CC ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    background-color: #fff;
+    text-shadow: 0px 2px 1px #8E44AD;
+}
+
+#scrolling a:hover {
+    color: #B84DFF;
+    text-decoration: none;
+}
+
 
 img {
     float: left;
@@ -213,27 +238,7 @@ img {
 
 }
 
-li {
-    font-size:8vmin;/*cool*/
-    float: left;
-    width:25vw;
-    min-width: 250px;
-    height: 100%;
-    color: #000;
-    font-weight: 300;
-    text-align: center;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -o-border-radius: 30px;
-    -moz-border-radius: 30px;
-    cursor: pointer;
-    background: #FFF;
-    -webkit-transform:  scale(0.95);
-    -ms-transform:  scale(0.95);
-    -moz-transform:  scale(0.95);
-    transform: scale(0.95);
 
-}
 
 .itemslide-active
 {/*applied to current active item*/
