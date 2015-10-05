@@ -1,110 +1,103 @@
 <!doctype html>
 <html>
-  <head>
-  <meta charset="utf-8">
-  <title>Arya Allan</title>
-  
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-  <!-- Other Stylesheets -->
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<head>
+<meta charset="utf-8">
+<title>Arya Allan</title>
 
-  <!-- File Specific -->
-  <link rel="stylesheet" href="./portfolio.css">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link href="//fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./portfolio.css">
+
+</head>
+
+<!-- nav -->
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid navcolor">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand branded" href="#">Arya Allan</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav words">
+        <li><a href="#portfolio"> Portfolio </a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right contact">
+        <li><a href="#">Contact <span class="glyphicon glyphicon-phone" aria-hidden="true"></span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 
-  <!-- Fonts -->
-  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
-  <link href='//fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+<!-- main section -->
+<div class="container-fluid main">
+  <div class="main-words">
+    <h2> classic | good-looking | thoughtful</h2>
+    <h1> web design</h2>
+  </div>
+</div>
 
-  </head>
-  <body>
-  
-<body>
-    <header>
-        <a style="color:#FFF;text-decoration:none;" href="index.html">
-            <div id="headertext">Arya Allan<span style="font-size:4.3vh;"> LLC</span>
-            </div>
-          </a>
-            <table id="buttons-menu">
-                <tr>
-                    <td>
-                        <a id="docs" href="#">
-                            About
-                        </a>
-                    </td>
-                </tr>
-            </table>
-
-        <!--END OF BUTTONS MENU-->
-
-        <span id="downloadarea">
-        <a href="website-src/download.html" id="download">CONTACT</a> (widget)
-        </span>
-    </header>
-
-    <div id="welcome">
-        <span class="content">
-        <div id="maintitle"> classic | good-looking | thoughtful <br/>
-            <span style="font-weight:400;"> web design </span><br/>
+<!-- portfolio section -->
+<div id="portfolio" class="container-fluid">
+  <div class="portfolio">
+    <div class= "examples">
+      <h2 class="examples-headline"> Portfolio </h2>
+      <div class="row-fluid">
+        <div class= "col-md-4">
+          <div class="module">
+            <a href="./autocomplete.html"><img src="img/throne.jpg"></a>
+          </div>
         </div>
-        </span>
+        <div class= "col-md-4">
+          <div class="module">
+            <a href="./puzzle.html"><img src ="img/puzzle.jpg">
+          </div></a>
+        </div>
+        <div class= "col-md-4">
+          <div class="module">
+            <img src="img/moresoon.jpg">
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
 
-
-    <!--Here is the carousel-->
-    <div id="scrolling">
-        <!--Slider-->
-        <ul>
-          <li>
-            <a id ="throne" href="./autocomplete.html">Choose Your Champion</a>
-          </li>
-          <li>
-            <img src="img/throne.jpg">
-          </li>
-          <li>
-              <a href="./puzzle.html">Klimt's Puzzle</a>
-          </li>
-          <li>
-              Item #3
-          </li>
-          <li>
-              Item #4
-          </li>
-          <li>
-              Women Coders
-          </li>
-        </ul>
+<!-- about -->
+<div id="about" class="about container-fluid ">
+  <div class="row">
+    <div class="col-md-12">
+    <h3> About </h3>
+    <p> Yale Educated, Los Angeles born and raised. Driven. Disciplined. Inspired by Warhol, Fairey Shepard and puppies.</p>
     </div>
-    <!--//-->
+  </div>
+</div>
+
+<!-- footer -->
+<div class="container-fluid footer">
+  <h1> github</h1>
+</div>
 
 
-    <!--Fotter from here-->
-    <div id="footer" align="center">
 
-    <!--Social Links-->
-<p> lalala </p>
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-    </div>
-    <!--Fotter untill here-->
-
-    
-  <!-- Jquery Specific -->
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script>
-   <script src="./touch-punch.min.js"></script>
-    
-
-  <!-- Bootstrap -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-  <!-- File Specific -->
-  <script src="./portfolio.js"></script>
-
+  
 
 </body>
 </html>
