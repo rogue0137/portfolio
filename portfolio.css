@@ -1,4 +1,8 @@
 /*NAVIGATION*/
+.navbar {
+    margin-bottom: 0px;
+}
+
 .navcolor {
     background-color: #078EDB;
     padding: 20px 0px;
@@ -9,23 +13,57 @@
     font-size: 40px;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'Droid Sans Mono', sans-serif; 
+    font-family: 'Lato', sans-serif; 
     font-weight: normal;
 }
 
+.navcolor .branded:hover {
+    color: #1C1C1C;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1C1C1C;
+    font-family: 'Lato', sans-serif;
+}
 .navcolor .contact {
     padding-right: 50px;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: #1C1C1C;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #4ddfdf;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1C1C1C;
+}
+
+/*MAIN*/
 .main {
     min-height: 300px;
     background-color: #115A85;
+    background-image: url(http://i.imgur.com/pP4KBs0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .main-words {
     color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #1C1C1C;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    padding: 75px 0px 20px 0px;
 
 }
 
@@ -45,7 +83,8 @@
 
 .examples-headline {
   text-transform: uppercase;
-  font-color: #000;
+  font-family: 'Lato', sans-serif;
+  font-color: #1B222A;
   margin-bottom: 30px;
   margin-top: 0;
 }
@@ -77,23 +116,31 @@
 
 .about {
     padding: 30px 0px 30px 0px;
-    background-color: #1C1C1C;
+    background-color: #078EDB;
     text-align: center;
-    color: #fff;
+    color: #1B222A;
+    font-family: 'Lato', sans-serif;
 }
 
 .about h3 {
     text-transform: uppercase;
 }
 .about p {
-    color: #717171;
+    color: #fff;
     font-size: 20px;
 }
 
 
 /*FOOTER*/
 .footer {
-    padding: 20px 0 20px 0;
     background-color: #1B222A;
+    text-align: center;
+    padding: 20px 20px;
+    color: #078EDB;
 }
 
+.octicat {
+    max-width: 80px;
+    max-height: 40px;
+    
+}
